@@ -250,6 +250,6 @@ function ajax(t, e, o, r) {
 }
 function check_fp_copyright() {
     var t = fp_code_wrapper.querySelectorAll(".fp-copyright");
-    return "ok"
+    return "ok" 
 }
 
