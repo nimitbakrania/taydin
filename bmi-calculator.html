@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
-<head>
+<html lang="zxx"><head>
     <meta charset="UTF-8">
     <meta name="description" content="Gym Template">
     <meta name="keywords" content="Gym, unica, creative, html">
@@ -10,8 +8,8 @@
     <title>Taydin Fitness</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&amp;display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -23,12 +21,12 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/calculator.css" type="text/css">
-</head>
+<link id="fp-style" rel="stylesheet" type="text/css" href="1.0.1" media="all"></head>
 
 <body>
     <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
+    <div id="preloder" style="display: none;">
+        <div class="loader" style="display: none;"></div>
     </div>
 
     <!-- Offcanvas Menu Section Begin -->
@@ -39,14 +37,24 @@
         </div>
         <nav class="canvas-menu mobile-menu">
             <ul>
-                <li class="active"><a href="./index.html">Home</a></li>
+                <li><a href="./index.html">Home</a></li>
                 <li><a href="./about-us.html">About Us</a></li>
                 <li><a href="./index2.html">Online Coaching</a></li>
-                <li><a href="./bmi-calculator.html">Tools</a></li>
+                <li class="active"><a href="./bmi-calculator.html">Tools</a></li>
+                <li><a href="./blog.html">Blog</a></li>
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
-        <div id="mobile-menu-wrap"></div>
+        <div id="mobile-menu-wrap"><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+            <ul>
+                <li><a href="./index.html" role="menuitem">Home</a></li>
+                <li><a href="./about-us.html" role="menuitem">About Us</a></li>
+                <li><a href="./index2.html" role="menuitem">Online Coaching</a></li>
+                <li class="active"><a href="./bmi-calculator.html" role="menuitem">Tools</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html" role="menuitem">Contact</a></li>
+            </ul>
+        </nav></div></div>
         <div class="canvas-social">
             <a href="https://www.facebook.com/taydinfitness"><i class="fa fa-facebook"></i></a>
             <a href="https://twitter.com/TaydinFitness"><i class="fa fa-twitter"></i></a>
@@ -98,12 +106,12 @@
     <!-- Header End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="img/home.jpeg">
+    <section class="breadcrumb-section set-bg" data-setbg="img/home.jpeg" style="background-image: url(&quot;img/home.jpeg&quot;);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb-text">
-                        <h2>BMR calculator</h2>
+                        <h2>Calorie calculator</h2>
                         <div class="bt-option">
                             <a href="./index.html">Home</a>
                             <a href="#">Pages</a>
@@ -120,10 +128,155 @@
     <!-- BMI Calculator Section Begin -->
 
 
-    <div id="fp-code" data-calc="calorie-intake" data-lang="en" data-unit="metric" data-bg-color="#FFFDFD"  
-    data-alt-bg-color="#FFFFFF" data-txt-color="#673190" data-alt-txt-color="#FFFFFF" data-pri-color="#673190" data-sec-color="#673190">
-    <span class="fp-copyright" style="color: white;"> <a>
-        </a></span></div><script src="js/calculator.js" async></script>
+    <div id="fp-code" data-calc="calorie-intake" data-lang="en" data-unit="metric" data-bg-color="#FFFDFD" data-alt-bg-color="#FFFFFF" data-txt-color="#673190" data-alt-txt-color="#FFFFFF" data-pri-color="#673190" data-sec-color="#673190" class="w980">
+    <span class="fp-copyright" style="color: white;"> <a style="color: rgb(103, 49, 144);">
+        </a></span><div id="fp_code_inner"><div id="fp-box" style="background-color: rgb(255, 253, 253); color: rgb(103, 49, 144);">
+<div class="fp-bold">To calculate your daily calorie intake, we need the following information:</div>
+<div class="fp-row">
+<div class="fp-col-md-3">
+<div class="fp-separator-line" style="background-color: rgb(103, 49, 144);">
+<div class="fp-separator-icon" style="background-color: rgb(103, 49, 144); border: rgb(103, 49, 144); color: rgb(255, 255, 255);">
+<span class="fp-separator-number">
+1
+</span>
+</div>
+</div>
+<p class="fp-headline" style="color: rgb(103, 49, 144);">Gender</p>
+<div class="fp-center">
+<ul id="ul-fp-form-control" class="fp-form-control" style="border: 1px solid rgb(255, 253, 253);">
+<li>
+<div id="fp-calculator_gender-1" class="fp-calculator_gender" data-attr="1" active="0" style="border: 5px solid rgb(255, 253, 253);">
+<img src="https://www.foodpal-app.com/datas/images/icons/woman.svg" alt="Weiblich" style="width:100%;max-width:60px;">
+</div>
+</li>
+<li>
+<div id="fp-calculator_gender-2" class="fp-calculator_gender" data-attr="2" active="0" style="border: 5px solid rgb(255, 253, 253);">
+<img src="https://www.foodpal-app.com/datas/images/icons/man.svg" alt="Männlich" style="width:100%;max-width:60px;">
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="fp-col-md-3">
+<div class="fp-separator-line" style="background-color: rgb(103, 49, 144);">
+<div class="fp-separator-icon" style="background-color: rgb(103, 49, 144); border: rgb(103, 49, 144); color: rgb(255, 255, 255);">
+<span class="fp-separator-number">
+2
+</span>
+</div>
+</div>
+<p class="fp-headline" style="color: rgb(103, 49, 144);">Age</p>
+<div class="fp-center">
+<input type="number" name="age" class="fp-form-control input-fp-form-control" id="fp-age" placeholder="18" autocomplete="off" style="background-color: rgb(255, 255, 255); color: rgb(103, 49, 144);">
+</div>
+<p class="fp-subline" style="color: rgb(103, 49, 144);">Years</p>
+</div>
+<div class="fp-col-md-3">
+<div class="fp-separator-line" style="background-color: rgb(103, 49, 144);">
+<div class="fp-separator-icon" style="background-color: rgb(103, 49, 144); border: rgb(103, 49, 144); color: rgb(255, 255, 255);">
+<span class="fp-separator-number">
+3
+</span>
+</div>
+</div>
+<p class="fp-headline" style="color: rgb(103, 49, 144);">Height</p>
+<div class="fp-center">
+<input type="number" name="body_size" class="fp-form-control input-fp-form-control" id="fp-body_size" placeholder="160" autocomplete="off" style="background-color: rgb(255, 255, 255); color: rgb(103, 49, 144);">
+</div>
+<p class="fp-subline" style="color: rgb(103, 49, 144);">cm</p>
+</div>
+<div class="fp-col-md-3">
+<div class="fp-separator-line" style="background-color: rgb(103, 49, 144);">
+<div class="fp-separator-icon" style="background-color: rgb(103, 49, 144); border: rgb(103, 49, 144); color: rgb(255, 255, 255);">
+<span class="fp-separator-number">
+4
+</span>
+</div>
+</div>
+<p class="fp-headline" style="color: rgb(103, 49, 144);">Weight</p>
+<div class="fp-center">
+<input type="number" name="body_weight" class="fp-form-control input-fp-form-control" id="fp-body_weight" placeholder="60" autocomplete="off" style="background-color: rgb(255, 255, 255); color: rgb(103, 49, 144);">
+</div>
+<p class="fp-subline" style="color: rgb(103, 49, 144);">kg</p>
+</div>
+</div>
+<div class="fp-row">
+<div class="fp-col-md-12">
+<div class="fp-separator-line" style="background-color: rgb(103, 49, 144);">
+<div class="fp-separator-icon" style="background-color: rgb(103, 49, 144); border: rgb(103, 49, 144); color: rgb(255, 255, 255);">
+<span class="fp-separator-number">
+5
+</span>
+</div>
+</div>
+<p class="fp-headline" style="color: rgb(103, 49, 144);">How active are you?</p>
+</div>
+</div>
+<div class="fp-row">
+<div class="fp-col-md-3">
+    <p class="fp-headline" style="color: rgb(103, 49, 144);">Sedentary</p>
+    <div class="fp-center">
+    <ul id="ul-fp-form-control-1" class="fp-form-control" style="border: 1px solid rgb(255, 253, 253);">
+    <li>
+    <div id="fp-calculator_job-1" class="fp-calculator_job" data-attr="1" active="0" style="border: 5px solid rgb(255, 253, 253);">
+    <img src="https://www.foodpal-app.com/datas/images/icons/predominantly-sedentary.svg" alt="Überwiegend sitzend" style="width:100%;">
+    </div>
+    </li>
+    </ul>
+    </div>
+    <p class="fp-subline" style="color: rgb(103, 49, 144);">For example- Low step count sedentary job no active hobbies</p>
+    </div>
+    <div class="fp-col-md-3">
+    <p class="fp-headline" style="color: rgb(103, 49, 144);">Low active</p>
+    <div class="fp-center">
+    <ul id="ul-fp-form-control-2" class="fp-form-control" style="border: 1px solid rgb(255, 253, 253);">
+    <li>
+    <div id="fp-calculator_job-2" class="fp-calculator_job" data-attr="2" active="0" style="border: 5px solid rgb(255, 253, 253);">
+    <img src="https://www.foodpal-app.com/datas/images/icons/predominantly-standing.svg" alt="Überwiegend stehend" style="width:100%;">
+    </div>
+    </li>
+    </ul>
+    </div>
+    <p class="fp-subline" style="color: rgb(103, 49, 144);">For example- A job mostly standing with a moderate step count</p>
+    </div>
+    <div class="fp-col-md-3">
+    <p class="fp-headline" style="color: rgb(103, 49, 144);">Active</p>
+    <div class="fp-center">
+    <ul id="ul-fp-form-control-3" class="fp-form-control" style="border: 1px solid rgb(255, 253, 253);">
+    <li>
+    <div id="fp-calculator_job-3" class="fp-calculator_job" data-attr="3" active="0" style="border: 5px solid rgb(255, 253, 253);">
+    <img src="https://www.foodpal-app.com/datas/images/icons/predominantly-walking.svg" alt="Überwiegend gehend" style="width:100%;">
+    </div>
+    </li>
+    </ul>
+    </div>
+    <p class="fp-subline" style="color: rgb(103, 49, 144);">A physical labour job and an active hobby</p>
+    </div>
+    <div class="fp-col-md-3">
+    <p class="fp-headline" style="color: rgb(103, 49, 144);">Very active</p>
+    <div class="fp-center">
+    <ul id="ul-fp-form-control-4" class="fp-form-control" style="border: 1px solid rgb(255, 253, 253);">
+    <li>
+    <div id="fp-calculator_job-4" class="fp-calculator_job" data-attr="4" active="0" style="border: 5px solid rgb(255, 253, 253);">
+    <img src="https://www.foodpal-app.com/datas/images/icons/hard-work.svg" alt="Schwere Arbeit" style="width:100%;">
+    </div>
+    </li>
+    </ul>
+    </div>
+    <p class="fp-subline" style="color: rgb(103, 49, 144);">For example- Concurrent athlete with a physical labour job</p>
+    </div>
+    </div>
+    <div class="fp-col-md-12">
+    <input type="submit" class="fp-btn fp-btn-primary" id="fp-calculator_click" name="send" value="Calculate Calorie Intake" style="background-color: rgb(103, 49, 144); border: 1px solid rgb(103, 49, 144); color: rgb(255, 255, 255);">
+    </div>
+    </div>
+    <div class="fp-information-box" id="fp-information-box" style="background-color: rgb(103, 49, 144); color: rgb(255, 255, 255);">
+    <div id="fp-close-info">x</div>
+<div id="fp-information-box-inner">A few pieces of information are needed! Please enter all necessary information first.</div>
+</div>
+<div id="fp-result"></div></div></div><script src="js/calculator.js" async=""></script>
+
+
      <!-- BMI Calculator Section End -->
 
     <!-- Get In Touch Section Begin -->
@@ -169,7 +322,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="copyright-text">
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </p>
+  Copyright ©<script>document.write(new Date().getFullYear());</script>2023 All rights reserved <p></p>
                     </div>
                 </div>
             </div>
@@ -201,6 +354,6 @@
 
 
 
-</body>
 
-</html>
+
+</body></html>

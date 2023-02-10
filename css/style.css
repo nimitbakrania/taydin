@@ -109,6 +109,7 @@ ol {
 	margin: 0;
 }
 
+
 /*---------------------
   Helper CSS
 -----------------------*/
@@ -386,7 +387,7 @@ ol {
 }
 
 .nav-menu ul li.active>a {
-	color: #673190;
+	color: #808080;
 }
 
 .nav-menu ul li.active>a:after {
@@ -394,7 +395,7 @@ ol {
 }
 
 .nav-menu ul li:hover>a {
-	color: #673190;
+	color: #808080;
 }
 
 .nav-menu ul li:hover>a:after {

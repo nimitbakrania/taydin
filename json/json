@@ -1,0 +1,145 @@
+<div id="fp-box">
+<div class="fp-bold">To calculate your daily calorie intake, we need the following information:</div>
+<div class="fp-row">
+<div class="fp-col-md-3">
+<div class="fp-separator-line">
+<div class="fp-separator-icon">
+<span class="fp-separator-number">
+1
+</span>
+</div>
+</div>
+<p class="fp-headline">Gender</p>
+<div class="fp-center">
+<ul id="ul-fp-form-control" class="fp-form-control" id="ul-fp-form-control">
+<li>
+<div id="fp-calculator_gender-1" class="fp-calculator_gender" data-attr="1" active="0">
+<img src="https://www.foodpal-app.com/datas/images/icons/woman.svg" alt="Weiblich" style="width:100%;max-width:60px;">
+</div>
+</li>
+<li>
+<div id="fp-calculator_gender-2" class="fp-calculator_gender" data-attr="2" active="0">
+<img src="https://www.foodpal-app.com/datas/images/icons/man.svg" alt="Männlich" style="width:100%;max-width:60px;">
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="fp-col-md-3">
+<div class="fp-separator-line">
+<div class="fp-separator-icon">
+<span class="fp-separator-number">
+2
+</span>
+</div>
+</div>
+<p class="fp-headline">Age</p>
+<div class="fp-center">
+<input type="number" name="age" class="fp-form-control input-fp-form-control" id="fp-age" placeholder="18" autocomplete="off">
+</div>
+<p class="fp-subline">Years</p>
+</div>
+<div class="fp-col-md-3">
+<div class="fp-separator-line">
+<div class="fp-separator-icon">
+<span class="fp-separator-number">
+3
+</span>
+</div>
+</div>
+<p class="fp-headline">Size</p>
+<div class="fp-center">
+<input type="number" name="body_size" class="fp-form-control input-fp-form-control" id="fp-body_size" placeholder="160" autocomplete="off">
+</div>
+<p class="fp-subline">cm</p>
+</div>
+<div class="fp-col-md-3">
+<div class="fp-separator-line">
+<div class="fp-separator-icon">
+<span class="fp-separator-number">
+4
+</span>
+</div>
+</div>
+<p class="fp-headline">Weight</p>
+<div class="fp-center">
+<input type="number" name="body_weight" class="fp-form-control input-fp-form-control" id="fp-body_weight" placeholder="60" autocomplete="off">
+</div>
+<p class="fp-subline">kg</p>
+</div>
+</div>
+<div class="fp-row">
+<div class="fp-col-md-12">
+<div class="fp-separator-line">
+<div class="fp-separator-icon">
+<span class="fp-separator-number">
+5
+</span>
+</div>
+</div>
+<p class="fp-headline">How active are you?</p>
+</div>
+</div>
+<div class="fp-row">
+<div class="fp-col-md-3">
+<p class="fp-headline">Predominantly sitting</p>
+<div class="fp-center">
+<ul id="ul-fp-form-control-1" class="fp-form-control">
+<li>
+<div id="fp-calculator_job-1" class="fp-calculator_job" data-attr="1" active="0">
+<img src="https://www.foodpal-app.com/datas/images/icons/predominantly-sedentary.svg" alt="Überwiegend sitzend" style="width:100%;" />
+</div>
+</li>
+</ul>
+</div>
+<p class="fp-subline">e.g. office</p>
+</div>
+<div class="fp-col-md-3">
+<p class="fp-headline">Predominantly standing</p>
+<div class="fp-center">
+<ul id="ul-fp-form-control-2" class="fp-form-control">
+<li>
+<div id="fp-calculator_job-2" class="fp-calculator_job" data-attr="2" active="0">
+<img src="https://www.foodpal-app.com/datas/images/icons/predominantly-standing.svg" alt="Überwiegend stehend" style="width:100%;" />
+</div>
+</li>
+</ul>
+</div>
+<p class="fp-subline">e.g. teacher</p>
+</div>
+<div class="fp-col-md-3">
+<p class="fp-headline">Predominantly walking</p>
+<div class="fp-center">
+<ul id="ul-fp-form-control-3" class="fp-form-control">
+<li>
+<div id="fp-calculator_job-3" class="fp-calculator_job" data-attr="3" active="0">
+<img src="https://www.foodpal-app.com/datas/images/icons/predominantly-walking.svg" alt="Überwiegend gehend" style="width:100%;" />
+</div>
+</li>
+</ul>
+</div>
+<p class="fp-subline">e.g. doctor</p>
+</div>
+<div class="fp-col-md-3">
+<p class="fp-headline">Heavy work</p>
+<div class="fp-center">
+<ul id="ul-fp-form-control-4" class="fp-form-control">
+<li>
+<div id="fp-calculator_job-4" class="fp-calculator_job" data-attr="4" active="0">
+<img src="https://www.foodpal-app.com/datas/images/icons/hard-work.svg" alt="Schwere Arbeit" style="width:100%;" />
+</div>
+</li>
+</ul>
+</div>
+<p class="fp-subline">e.g. construction worker</p>
+</div>
+</div>
+<div class="fp-col-md-12">
+<input type="submit" class="fp-btn fp-btn-primary" id="fp-calculator_click" name="send" value="Calculate Calorie Intake">
+</div>
+</div>
+<div class="fp-information-box" id="fp-information-box">
+<div id="fp-close-info">x</div>
+<div id="fp-information-box-inner">A few pieces of information are needed! Please enter all necessary information first.</div>
+</div>
+<div id="fp-result"></div>
